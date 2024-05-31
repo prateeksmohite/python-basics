@@ -1,0 +1,48 @@
+student = {
+    "name" : "virat",
+    "subject": {
+        "phy" : 97,
+        "chem" : 98,
+        "math" : 99
+    } 
+}
+
+#nested dictionary
+
+print(student)
+print(student["subjects"])
+print(student["subjects"]["chem"])
+
+
+#30 Dictionary methods #its in next file 
+
+print(student.keys())
+print(list(student.keys()))
+
+print(len(student))
+#or
+print(len(list(student.keys())))
+
+
+print(student.values())
+print(list(student.values()))
+
+print(student.items())
+print(list(student.items()))
+
+pairs = list(student.items())
+print(pairs[0])     #name, virat
+
+# print(student["name2"])    #it wiill give error    # if we type name in place of name2 both will give same output
+print(student.get("name2"))      ##no error  ->  None will be the output
+
+student.update({"city" : "delhi"})  # by doing this we can add some more new things in the student dictionary
+#or 
+# new_dict = {"city" : "delhi", "age" : 16}    # or even we can replace the terms like "name" : "shradha" #it will replace the name
+# student.update(new_dict)
+
+print (student)
+
+
+
+

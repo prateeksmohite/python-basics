@@ -1,0 +1,14 @@
+# Tuple methods 
+
+# tup = (2, 1, 3, 1)
+
+# tup.index( el )  #returns index of first occurrence    tup.index(1) is 1
+
+# tup.count( el )  #counts total occurrences     tup.count(1) is 2
+
+tup = (1, 2, 3, 4)
+print(tup.index(2))     #it gives the output value means where is number 2 located, output is 1  #2 is called element and 1 is index
+
+tup2 = (1, 2, 3, 4, 4, 4, 4)
+print(tup2.count(4))
+

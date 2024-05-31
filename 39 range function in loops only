@@ -1,0 +1,25 @@
+# range()
+#  range functions returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified numbers
+
+  #range(start?, stop, step?)    # here in this  ?(question mark) indicates optional #start & step are optional #stop is compulsary
+
+
+for el in range(5):
+    print(el)
+
+for el in range(1, 5):
+    print(el)
+
+for el in range(1, 5, 2):
+    print(el) 
+
+
+
+for i in range(10):    #range(stop)
+    print (i)    
+
+for i in range(2, 10):    #range(start, stop)
+    print(i)
+
+
+    

@@ -1,0 +1,11 @@
+# print the multiplication of a table n
+
+i = 1
+
+while i <= 10 :
+    print(3*i)
+    i += 1
+    
+    #or
+# n = int(input("enter the number":))
+#print (n*1)    

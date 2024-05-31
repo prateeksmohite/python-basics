@@ -1,0 +1,35 @@
+# wap to check if a number entered by the user is odd or even
+
+num = int(input("enter number: "))
+if(num %2==0):
+    print("the number is even")
+else:    
+    print("the number is odd")
+
+
+# wap to find the greatest of 3 numbers entered by the user 
+
+a = int(input("enter the first number: "))
+b = int(input("enter the second number: "))
+c = int(input("enter the third number: "))
+
+if (a>=b and a>=c):
+    print("a is the greatest number")
+elif(b>=c and b>=a):                   #elif (b>=c):
+    print("b is the greatest number")
+elif(c>=a and c>=b):                   #else:
+    print("c is the greatest number")     
+
+
+# wap to check if a number is a multiple of 7 or not
+
+num = int(input("enter the number: "))
+
+if(num%7 == 0):
+    print("the number is multiple of 7")
+else:
+    print("not the multiple of 7")
+        
+
+
+

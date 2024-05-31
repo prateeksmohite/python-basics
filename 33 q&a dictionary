@@ -1,0 +1,18 @@
+# store following word meanings in a python dictionary:
+#    table: "a piece of furniture",  "list of facts & figures"
+#    cat: "a small animal"
+
+Dict = {
+    "table" : ["a piece of furniture",  "list of facts & figures"],
+    "cat" : "a small animal"
+}
+
+print(Dict)
+
+# you are given a list of subjects for students. Assume one classroom is required for 1 subject. How many classrooms are needed by all students
+#    "python", "java", "c++", "python", "javascript", "java", "c++", "c"
+
+subjects = {"python", "java", "c++", "python",
+            "javascript", "java", "c++", "c"
+}
+print(len(subjects))

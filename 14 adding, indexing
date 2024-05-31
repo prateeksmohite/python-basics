@@ -1,0 +1,18 @@
+str1 = "hello"
+len1 = len(str1)
+print (len1)
+
+str2 = "world"
+len2 = len(str2)
+print (len2)
+
+print (str1+str2)
+
+print (len(str1+ " " +str2))   #if there is any additional characters it counts that too
+
+
+# indexing means finding the position of the words (space is also considered) and the counting number starts with 0
+
+str = "hello world"
+print(str[2])
+print(str[1])

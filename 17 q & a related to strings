@@ -1,0 +1,14 @@
+# wap to input user's first name & print its length
+
+str = "user's first name: "
+print(len(str))
+
+# or
+name = input("enter your name: ")
+print("length of your name is", len(name))
+
+#wap to find the occurence of the string
+
+str1 = "hi i am$ virat $ going $to play cricket$"
+print(str1.count("$"))
+ 

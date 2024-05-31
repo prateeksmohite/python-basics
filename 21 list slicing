@@ -1,0 +1,8 @@
+# list slicing -- it is similar to string slicing
+# list_name[starting_index_idx : ending_idx] #ending idx is not included
+
+marks = [85, 94, 76, 63, 48]
+print(marks[1:4])
+print(marks[1:])
+
+print(marks[-3:-1])   # negative indexing

@@ -1,0 +1,11 @@
+#Dictionary methods
+
+# myDict.keys()   #returns all keys
+
+# myDict.values() #returns all values
+
+# myDict.items()   #returns all (key, value) pairs as tuples
+
+# myDict.get("key") #returns the key according to value
+
+# myDict.update(newDict) #inserts the specified items to the Dictionary

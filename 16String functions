@@ -1,0 +1,30 @@
+#string functions 
+
+# str = "i am a coder"
+# str.endswith("er")       #it will return true
+
+# str.capitalize()         #capitalizes 1st char
+
+# str.replace(old, new)    #replaces all accurences of old
+
+# str.find(word)           #returns 1st indx of 1st occurer
+
+# str.count("am")          #counts the occurence of substring
+
+# there are so many 
+
+str = "virat kohli is the best batsman in the world"
+
+print(str.endswith("rld"))
+
+print(str.capitalize())     #it does the changes only in output if we want to change the actual string, we should write # str = str.capitalize() 
+
+print(str.replace("o", "a"))      # it will replace the "o" alphabet with "a"
+print(str.replace("kohli", "anushka"))
+
+print(str.find("o"))
+print(str.find("kohli"))
+print(str.find("Q"))             #there is no such value exists so the output will be -1
+
+print(str.count("the"))
+print(str.count("o"))

@@ -1,0 +1,20 @@
+# set in python 
+# set is the collection of the unordered items.
+# Each element in the set must be unique & immutable.
+
+# nums = { 1,2,3,4 }
+# set2 = { 1,2,2,2 }
+# repeated elements stored only once , so it resolved to {1,2}
+
+# null_set = set ()  #empty set syntax
+
+collection = {1,2,2,2, "hello", "world", "world", 4}     # if the numbers and words are same, then in output only once it will come 
+                                                         # and there will not be a perticular order  
+
+print(collection)
+print(type(collection))
+print(len(collection))          #total number of items 
+
+# collection = {}  #empty and # this will be a dictionary
+collection = set()  # now it will be a set   
+print(type(collection))

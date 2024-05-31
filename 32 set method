@@ -1,0 +1,45 @@
+# set methods  ->              # sets are mutable   and    # set elements are immutable
+
+# set.add(el)      #adds an element
+ 
+# set.remove(el)   #removes the elem an
+
+# set.clear()       #empties the set
+
+# set.pop()         #removes a random value
+
+# set.union(set2)   #combines both set values & returns new
+
+# set.intersection(set2)  # combines common values and returns new
+
+
+collection = set()
+collection.add(1)
+collection.add(2)
+collection.add(2)
+collection.add("helloworld")
+collection.add((1,2,3))
+# collection.add({1,2,3})         # dictionary {} cannot be printed it will give error
+# collection.add([1,2,3])         # lists [] cannot be printed it will give error 
+
+# collection.remove(1)       # as i already know it will remove the thing that i mention
+
+print(collection)       
+# print(len(collection))      # output length will be 4
+
+collection.clear()
+print(len(collection))        # output will be 0 because it clears all the things
+
+collection2 = {"hello", "apnacollege", "world", "coding", "python"}
+
+print(collection2.pop())    # it will give any random word or things that we mentioned in collection2
+
+
+set1 = {1,2,3}
+set2 = {2,3,4}
+
+print(set1.union(set2))     #1,2,3,4  # the same in both sets will not be repeated
+
+print(set1.intersection(set2))   # 2,3  # the similar's in both sets are the output
+
+

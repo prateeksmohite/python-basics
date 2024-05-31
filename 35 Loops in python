@@ -1,0 +1,28 @@
+# Loops in python ->
+# Loops are used to repeat instructions 
+# while loops
+
+#   while condition :
+        #some work
+
+count = 1
+while count <= 5 :
+    print("hello")
+    count += 1
+
+    #or
+
+i = 1
+while i <= 10 :
+    print("virat", i)
+    i += 1
+
+# print number from 5 to 1
+a = 5
+while a >=1 :
+    print(a)
+    a -= 1
+
+print("loop end")    
+
+
